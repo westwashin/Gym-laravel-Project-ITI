@@ -7,12 +7,12 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1>New City</h1>
+                        <h1>Cabang Baru</h1>
                     </div>
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
                             <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active">Create New City</li>
+                            <li class="breadcrumb-item active">Create Cabang Baru</li>
                         </ol>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                                     @enderror
                                 </div>
                                 <div class="form-group">
-                                    <label for="manager_id">City Manger</label>
+                                    <label for="manager_id">Manager Cabang</label>
                                     <label style="color: #aeb1b6; ">(optional)</label>
                                     <select class=" form-control @error('manager_id') is-invalid @enderror"
                                         name="manager_id" id="manager_id">
